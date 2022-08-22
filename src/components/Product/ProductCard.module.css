@@ -1,0 +1,39 @@
+.productCard {
+  align-items: center;
+  margin: 0 0 5px -6px;
+
+  padding: 20px;
+
+  background-color: white;
+
+  z-index: 1;
+  transition: transform 450ms ease-in-out;
+}
+.productCardFooter {
+  display: flex;
+  justify-content: space-between;
+}
+.productCard:hover {
+  cursor: pointer;
+  transform: scale(1.06);
+  opacity: 1;
+
+  box-shadow: 1px 2px 9px #3c3535;
+}
+.productCard > img {
+  max-height: 200px;
+  width: 100%;
+  object-fit: contain;
+  margin-bottom: 15px;
+}
+
+.seeMore {
+  background: url("https://images-eu.ssl-images-amazon.com/images/G/03/gno/sprites/new-nav-sprite-global-1x_blueheaven-account._CB658093869_.png")
+    no-repeat -108px -173px;
+  width: 8px;
+  height: 14px;
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+}

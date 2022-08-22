@@ -1,0 +1,248 @@
+.header {
+  height: 60px;
+  /* height: 3.75rem; */
+  display: flex;
+  align-items: center;
+  background-color: #131921;
+  /* position: sticky; */
+  top: 0;
+  z-index: 100;
+  justify-content: space-evenly;
+  width: 100vw;
+  max-width: 100%;
+  /* font-family: "Amazon Ember", Arial, sans-serif; */
+  position: static;
+  flex: 1 1 auto;
+  flex-flow: row nowrap;
+}
+.logo {
+  display: flex;
+  margin-left: 10px;
+  padding: 12px;
+  border: 1px solid transparent;
+  border-radius: 3px;
+}
+
+.logoIcon {
+  background: url("https://images-eu.ssl-images-amazon.com/images/G/03/gno/sprites/new-nav-sprite-global-1x_blueheaven-account._CB658093869_.png")
+    no-repeat -11px -11px;
+  width: 96px;
+  height: 30px;
+  margin-bottom: -6px;
+}
+.de {
+  color: white;
+}
+.logo:hover {
+  border: 1px solid white;
+}
+
+.location {
+  display: flex;
+  margin: 10px 6px 10px 6px;
+  padding: 9px;
+  margin-left: 10px;
+  border: 1px solid transparent;
+  border-radius: 3px;
+  cursor: pointer;
+  align-items: center;
+}
+
+.locationIcon {
+  background: url("https://images-eu.ssl-images-amazon.com/images/G/03/gno/sprites/new-nav-sprite-global-1x_blueheaven-account._CB658093869_.png")
+    no-repeat -78px -341px;
+  width: 16px;
+  height: 19px;
+  margin-right: -6px;
+  margin-top: 8px;
+}
+.location:hover {
+  border: 1px solid white;
+}
+
+.search {
+  display: flex;
+
+  flex: 1;
+  align-items: center;
+  border: 1px solid transparent;
+
+  border-radius: 3px;
+
+  /* justify-content: space-between; */
+}
+
+.dropdown {
+  width: 50px;
+  height: 39px;
+  background-color: #ffffff;
+  border-radius: 2px;
+  text-align-last: center;
+  border: 0;
+  font-size: 14px;
+}
+.dropdown:hover {
+  background-color: #dadada;
+}
+.searchInputBox {
+  flex: 1;
+  margin: -1px;
+}
+.searchInput {
+  height: 39px;
+  padding: 10px;
+
+  border: 0;
+
+  width: 100%;
+}
+.searchIconBox {
+  background-color: #febd69;
+  height: 39px;
+  width: 47px;
+  border-radius: 3px;
+}
+.searchIconBox:hover {
+  background-color: #f08805;
+}
+
+.searchIcon {
+  background: url("https://images-eu.ssl-images-amazon.com/images/G/03/gno/sprites/nav-sprite-global-1x-hm-dsk-reorg._CB405937709_.png")
+    no-repeat -10px -290px;
+  width: 21px;
+  height: 21px;
+  margin: 11px 14px;
+}
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-bottom: 42px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.flag {
+  display: flex;
+  color: white;
+  padding: 12px;
+  padding-right: 24px;
+  border: 1px solid transparent;
+  margin-right: 6px;
+  align-items: center;
+  margin-top: 42px;
+  margin-bottom: -2px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.dropdownIcon {
+  color: #a7acb2;
+}
+
+.flag:hover {
+  border: 1px solid white;
+}
+
+.login {
+  display: flex;
+  flex-direction: column;
+  margin-top: 43px;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: white;
+  padding: 4px 6px 4px 10px;
+  border: 1px solid transparent;
+  border-radius: 3px;
+}
+.navIcon {
+  background: url("https://images-eu.ssl-images-amazon.com/images/G/03/gno/sprites/nav-sprite-global-1x-hm-dsk-reorg._CB405937709_.png")
+    no-repeat -184px -342px;
+  width: 13px;
+  height: 8px;
+}
+.login:hover {
+  border: 1px solid white;
+}
+
+.order {
+  display: flex;
+  flex-direction: column;
+  margin-top: 43px;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: white;
+  padding: 9px;
+  border: 1px solid transparent;
+  border-radius: 3px;
+}
+.order:hover {
+  border: 1px solid white;
+}
+
+.optionLineOne {
+  font-size: 12px;
+  line-height: 14px;
+  height: 14px;
+  font-weight: 400;
+}
+
+.optionLineTwo {
+  font-size: 14px;
+  line-height: 15px;
+  font-weight: 700;
+}
+
+.optionBasket {
+  display: flex;
+  align-items: center;
+  color: white;
+  margin-right: 15px;
+  margin-top: 43px;
+  padding: 9px;
+  border: 1px solid transparent;
+  border-radius: 3px;
+}
+.optionBasket:hover {
+  border: 1px solid white;
+}
+.basketCount {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.option {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: white;
+}
+
+.item {
+  font-weight: bold;
+  position: relative;
+  left: -4px;
+  top: -11px;
+  color: #f08805;
+}
+.image {
+  background: url("https://images-eu.ssl-images-amazon.com/images/G/03/gno/sprites/new-nav-sprite-global-1x_blueheaven-account._CB658093869_.png")
+    no-repeat -11px -241px;
+  width: 35px;
+  height: 25px;
+  margin-right: -18px;
+}
+
+.link {
+  text-decoration: none;
+}
+.signOut:hover {
+  cursor: pointer;
+}
+/* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
+/* @media screen and (max-width: 380px) {
+  .header {
+    float: none;
+    width: 100%;
+  }
+} */

@@ -1,0 +1,22 @@
+.home {
+  background: #eaeded;
+  margin: 0 auto;
+  /* max-width: none;
+  min-width: 1000px; */
+  overflow: hidden;
+}
+.container {
+  max-width: 1500px;
+  margin: 0 auto;
+}
+.sliderContainer {
+  max-height: 230px;
+}
+.productGrid {
+  padding: 0 10px 10px;
+}
+.row {
+  max-width: 1480px;
+  margin: 0 auto;
+  padding: 6px;
+}

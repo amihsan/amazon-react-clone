@@ -1,0 +1,157 @@
+.footer {
+  color: white;
+  background-color: #232f3e;
+  font-size: 13px;
+  margin-top: 20px;
+  justify-content: space-evenly;
+  width: 100vw;
+  font-family: "Amazon Ember", Arial, sans-serif;
+}
+
+.backToTop {
+  display: flex;
+  height: 49px;
+  align-items: center;
+  background-color: #37475a !important;
+  text-align: center;
+  margin-bottom: 40px;
+  justify-content: center;
+}
+
+.backToTop:hover {
+  background-color: #485769 !important;
+  cursor: pointer;
+}
+
+.backToTopText {
+  color: white;
+  display: block;
+  padding: 10px 0;
+  line-height: 19px;
+  font-size: 14px !important;
+}
+
+.footerRow {
+  display: flex;
+  margin: 0 auto;
+  padding-bottom: 40px;
+  justify-content: center;
+}
+
+.footerCol {
+  display: table-cell;
+  padding: 0 10px;
+  line-height: 19px;
+}
+
+.footerColHead {
+  font-weight: 700;
+  font-family: inherit;
+  font-size: 16px;
+  margin: 6px 0 14px 0;
+  white-space: nowrap;
+}
+
+.footerCol ul {
+  margin: 0;
+  padding: 0;
+}
+
+.footerCol ul li {
+  list-style-type: none;
+}
+.footerCol ul li:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.footerBottom {
+  display: flex;
+  padding: 10px 0;
+  justify-content: center;
+  justify-content: space-evenly;
+  align-items: center;
+  justify-content: center;
+}
+
+.footerBottomMessage {
+  align-items: center;
+  display: flex;
+  font-size: 120%;
+  margin-left: 5%;
+}
+
+.footerBottomMessage > a {
+  text-decoration: none;
+  color: white;
+  margin-left: 5px;
+}
+/* .logo {
+  margin-left: 10px;
+  padding: 12px;
+} */
+
+.logoIcon {
+  background: url("https://images-eu.ssl-images-amazon.com/images/G/03/gno/sprites/nav-sprite-global-1x-hm-dsk-reorg._CB405937709_.png")
+    no-repeat -10px -90px;
+  width: 76px;
+  height: 23px;
+}
+.optionLineOne {
+  margin-left: 9px;
+}
+
+.language {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  color: #ccc;
+  display: flex;
+  margin-left: 5%;
+
+  padding: 3px 9px;
+}
+.iconResize {
+  font-size: 145%;
+}
+.language:hover {
+  cursor: pointer;
+}
+.flag {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  color: #ccc;
+  padding: 5px 9px;
+  margin-left: 1%;
+  overflow: hidden;
+}
+
+.flagResize {
+  height: 12px;
+  width: auto;
+}
+.flag:hover {
+  cursor: pointer;
+}
+.footerLine {
+  border-top: 1px solid #3a4553;
+  margin-top: 40px;
+}
+.footerNavigation {
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+  background-color: #131a22;
+  color: white;
+  width: 100vw;
+  height: 7vw;
+  font-family: "Amazon Ember", Arial, sans-serif;
+}
+.unfoldIconResize {
+  font-size: 16px;
+}

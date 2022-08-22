@@ -1,0 +1,7 @@
+.productDetails {
+  padding: 20px 80px;
+}
+
+.productDetails > h1 {
+  margin: 30px 0;
+}

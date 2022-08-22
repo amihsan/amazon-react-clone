@@ -1,0 +1,42 @@
+.headerSideBar {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 600px;
+  margin: 5px 0 6px 0;
+  padding: 2px 11px;
+  border: 1px solid transparent;
+  border-radius: 2px 2px 2px 2px;
+  margin-left: 11px;
+}
+.headerSideBar:hover {
+  border: 1px solid white;
+  cursor: pointer;
+}
+.optionImg {
+  background: url("https://images-eu.ssl-images-amazon.com/images/G/03/gno/sprites/nav-sprite-global-1x-hm-dsk-reorg._CB405937709_.png")
+    no-repeat -172px -255px;
+  width: 18px;
+  height: 14px;
+}
+.optionText {
+  margin-left: 6px;
+}
+
+.sideBarHeader {
+  background-color: #232f3e;
+  color: white;
+  height: 50px;
+}
+.avatar {
+  background: url("https://images-eu.ssl-images-amazon.com/images/G/03/gno/sprites/nav-sprite-global-1x-hm-dsk-reorg._CB405937709_.png")
+    no-repeat -137px -340px;
+  width: 25px;
+  height: 25px;
+  margin: 0 10px 0 20px;
+}
+.sideBarTitle {
+  display: flex;
+  align-items: center;
+  /* margin: -5px; */
+}

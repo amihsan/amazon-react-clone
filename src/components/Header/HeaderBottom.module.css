@@ -1,0 +1,28 @@
+.headerBottom {
+  width: 100vw;
+  max-width: 100%;
+  height: 39px;
+  background-color: #232f3e;
+  color: white;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  font-family: "Amazon Ember", Arial, sans-serif;
+}
+.headerBottomText {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 700px;
+  padding: 3px 9px;
+  border: 1px solid transparent;
+  border-radius: 2px 2px 2px 2px;
+}
+.headerBottomText:hover {
+  border: 1px solid white;
+  cursor: pointer;
+}
+
+.optionText {
+  margin-left: 6px;
+}

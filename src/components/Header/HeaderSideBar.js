@@ -1,0 +1,37 @@
+import React, { useState } from "react";
+import Offcanvas from "react-bootstrap/Offcanvas";
+import classes from "./HeaderSideBar.module.css";
+
+function HeaderSideBar() {
+  const [show, setShow] = useState(false);
+
+  const handleClose = () => setShow(false);
+  const handleShow = () => setShow(true);
+  return (
+    <>
+      <div className={classes.headerSideBar} onClick={handleShow}>
+        <div className={classes.optionImg}></div>
+        <span className={classes.optionText}>All</span>
+      </div>
+      <Offcanvas show={show} onHide={handleClose}>
+        <Offcanvas.Header
+          closeButton
+          closeVariant="white"
+          className={classes.sideBarHeader}
+        >
+          <Offcanvas.Title className={classes.sideBarTitle}>
+            <div className={classes.avatar}></div>
+            <strong>Hello, Sign in</strong>
+          </Offcanvas.Title>
+        </Offcanvas.Header>
+        <Offcanvas.Body>
+          <Offcanvas.Title>
+            <strong>Trending</strong>
+          </Offcanvas.Title>
+        </Offcanvas.Body>
+      </Offcanvas>
+    </>
+  );
+}
+
+export default HeaderSideBar;
