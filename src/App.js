@@ -13,7 +13,7 @@ import Orders from "./components/Order/Orders";
 import Footer from "./components/Footer/Footer";
 import ProductDetails from "./components/Product/ProductDetails";
 import HeaderBottom from "./components/Header/HeaderBottom";
-import Profile from "./Profile/Profile";
+import Profile from "./components/Profile/Profile";
 
 const promise = loadStripe(
   "pk_test_51LQekKCKCvt4iPakGKoWJhOvasZ5GihWxo1q3iq07bnDWfgLONl9kKTj7ufDt7cLAe8qKCheJshTjlB6omIMby6w008ktfLw48"
