@@ -48,22 +48,74 @@ function Header() {
   const loginPopover = (
     <Popover
       id="popover-basic"
+      className={classes.loginPopoverBasic}
       onMouseEnter={handleLoginOnMouseEnter}
       onMouseLeave={handleLoginOnMouseLeave}
     >
-      <Popover.Header>
+      <Popover.Header className={classes.loginPopoverHeader}>
         {!user && (
-          <Button variant="warning" size="sm" onClick={handleAuthenticaton}>
-            Sign in
-          </Button>
-        )}
-      </Popover.Header>
-      <Popover.Body>
-        {user && (
-          <div className={classes.signOut} onClick={handleAuthenticaton}>
-            Sign out
+          <div className={classes.loginPopoverHeaderButton}>
+            <Button
+              className={classes.signInButton}
+              variant="warning"
+              size="sm"
+              onClick={handleAuthenticaton}
+            >
+              Sign in
+            </Button>
+            <div className={classes.newUserText}>
+              New customer ?{" "}
+              <Link to="/login" className={classes.newUserTextLink}>
+                Start here.
+              </Link>
+            </div>
           </div>
         )}
+      </Popover.Header>
+      <Popover.Body className={classes.loginPopoverBody}>
+        <div className={classes.account}>
+          <div className={classes.accountLeft}>
+            <div className={classes.accountLeftHead}>Your Lists</div>
+
+            <span className={classes.popoverText}>Your Account</span>
+            <span className={classes.popoverText}>Your Orders</span>
+            <span className={classes.popoverText}>Your Lists</span>
+            <span className={classes.popoverText}>Your Lists</span>
+            <span className={classes.popoverText}>Your Prime Video</span>
+            <span className={classes.popoverText}>Your Prime Membership</span>
+            <span className={classes.popoverText}>Your Watchlist</span>
+            <span className={classes.popoverText}>My Prime Music</span>
+          </div>
+          <div className={classes.accountRight}>
+            <div className={classes.accountRightHead}>Your Account</div>
+
+            <span className={classes.popoverText}>Your Account</span>
+            <span className={classes.popoverText}>Your Orders</span>
+            <span className={classes.popoverText}>Your Lists</span>
+            <span className={classes.popoverText}>Your Prime Video</span>
+            <span className={classes.popoverText}>Your Prime Membership</span>
+            <span className={classes.popoverText}>Your Watchlist</span>
+            <span className={classes.popoverText}>My Prime Music</span>
+            <span className={classes.popoverText}>Your Orders</span>
+            <span className={classes.popoverText}>Your Lists</span>
+            <span className={classes.popoverText}>Your Prime Video</span>
+            <span className={classes.popoverText}>Your Prime Membership</span>
+            <span className={classes.popoverText}>Your Watchlist</span>
+            <span className={classes.popoverText}>My Prime Music</span>
+            <span className={classes.popoverText}>Your Orders</span>
+            <span className={classes.popoverText}>Your Lists</span>
+            <span className={classes.popoverText}>Your Prime Video</span>
+            <span className={classes.popoverText}>Your Prime Membership</span>
+            <span className={classes.popoverText}>Your Watchlist</span>
+            <span className={classes.popoverText}>My Prime Music</span>
+
+            {user && (
+              <div className={classes.signOut} onClick={handleAuthenticaton}>
+                <span className={classes.popoverText}>Sign out</span>
+              </div>
+            )}
+          </div>
+        </div>
       </Popover.Body>
     </Popover>
   );

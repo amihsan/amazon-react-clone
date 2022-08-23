@@ -239,10 +239,85 @@
 .signOut:hover {
   cursor: pointer;
 }
-/* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
-/* @media screen and (max-width: 380px) {
-  .header {
-    float: none;
-    width: 100%;
-  }
-} */
+.account {
+  display: flex;
+  justify-content: space-between;
+  margin: -13px 0 0 0;
+}
+.popoverText {
+  display: block;
+  font-size: 13px;
+  color: #444;
+  font-weight: 400px;
+  white-space: normal;
+  word-wrap: break-word;
+  line-height: 16px;
+  padding: 0 0 7px;
+}
+.popoverText:hover {
+  text-decoration: underline;
+  cursor: pointer;
+  color: #e47911;
+}
+.accountRight {
+  border-left: 1px solid #eee;
+  padding: 14px 69px 14px 27px;
+}
+
+.accountRightHead {
+  font-weight: 700;
+  font-size: 16px;
+  padding-bottom: 10px;
+  left: 20px;
+}
+
+.accountLeft {
+  padding: 14px;
+}
+
+.accountLeftHead {
+  font-weight: 700;
+  font-size: 16px;
+  padding-bottom: 10px;
+  left: 20px;
+}
+
+.loginPopoverBasic {
+  margin-top: -7px;
+  width: 100%;
+  max-width: 500px;
+  font-family: "Amazon Ember", Arial, sans-serif;
+}
+
+.loginPopoverHeader {
+  background-color: white;
+  border-bottom: 1px solid #eee;
+}
+
+.loginPopoverHeaderButton {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 4px 0 -10px 0;
+}
+.signInButton {
+  width: 40%;
+}
+.newUserText {
+  color: #444;
+  margin: 7px 0 9px 0;
+  font-size: 11px;
+}
+.newUserTextLink {
+  text-decoration: none;
+}
+.newUserTextLink:hover {
+  text-decoration: underline;
+  color: #e47911;
+}
+.signOut {
+  padding: 12px 0 0 0;
+  border-top: 1px solid #eee;
+  margin-top: 17px;
+}
