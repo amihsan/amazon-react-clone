@@ -321,3 +321,136 @@
   border-top: 1px solid #eee;
   margin-top: 17px;
 }
+.navItem {
+  position: relative;
+  display: block;
+  clear: both;
+  font-family: inherit;
+  line-height: 16px;
+  padding: 0 0 7px;
+  margin: 0;
+  text-decoration: none;
+  cursor: default;
+}
+.learnMore {
+  font-size: 11px;
+  margin-left: 5px;
+  text-decoration: none;
+  color: #007185;
+}
+.learnMore:hover {
+  text-decoration: underline;
+  color: #e47911;
+}
+.navDivider {
+  position: relative;
+  display: block;
+  line-height: 1px;
+  height: 1px;
+  overflow: hidden;
+  background: #eee;
+
+  margin: 0 0 9px;
+}
+.changeCurrency {
+  float: right;
+  font-size: 12px;
+  color: #007185;
+}
+.changeCurrency:hover {
+  cursor: pointer;
+  text-decoration: underline;
+  color: #e47911;
+}
+.navFlag {
+  margin: 0 0.5em 0 0;
+  position: relative;
+  top: 4px;
+  display: inline-block;
+  width: 17px;
+  height: 13px;
+  background: url(https://m.media-amazon.com/images/S/sash/fe2UeLQmJ11kKHN.png);
+  background-position: 0px -282px;
+}
+.changeCountry {
+  margin-left: 25px;
+  margin-top: 10px;
+  color: #0066c0;
+}
+.changeCountry:hover {
+  text-decoration: underline;
+  cursor: pointer;
+  color: #e47911;
+}
+
+.flagPopoverBasic {
+  width: 100%;
+  max-width: 240px;
+  margin-top: -1px;
+  font-family: "Amazon Ember", Arial, sans-serif;
+}
+.leftIcon {
+  margin: 0 0.5em 0 0;
+  position: relative;
+  top: 3px;
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  background: url(https://m.media-amazon.com/images/S/sash/fe2UeLQmJ11kKHN.png);
+  background-position: -75px -2px;
+}
+.navText {
+  display: block;
+  font-size: 13px;
+  color: #444;
+  font-weight: 400;
+  white-space: normal;
+  word-wrap: break-word;
+  padding: 0 0 7px;
+}
+
+.navText:hover {
+  text-decoration: underline;
+  cursor: pointer;
+  color: #e47911;
+}
+.navText:hover .leftIcon {
+  background-position: -123px -2px;
+}
+.addressModalHeader {
+  border-bottom: 1px solid #d5d9d9;
+  background-color: #f0f2f2;
+  border-radius: 8px 8px 0 0;
+  padding: 0 24px;
+}
+.bodyPartOne {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #565959 !important;
+  font-size: 12px !important;
+  line-height: 16px !important;
+}
+.modalButton {
+  padding: 9px;
+}
+.bodyPartTwo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #565959 !important;
+  font-size: 12px !important;
+  line-height: 16px !important;
+}
+
+/* .backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: 10;
+  background: rgba(0, 0, 0, 0.75);
+} */

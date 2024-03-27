@@ -1,8 +1,16 @@
 .checkout {
   display: flex;
   padding: 20px;
+
   background-color: white;
   height: max-content;
+}
+.left {
+  padding: 5px;
+}
+.right {
+  height: 100%;
+  padding: 5px;
 }
 
 .ad {

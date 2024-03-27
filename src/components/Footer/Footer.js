@@ -24,13 +24,48 @@ function Footer() {
   const languagePopover = (
     <Popover
       id="popover-basic"
+      className={classes.languagePopoverBasic}
       onMouseEnter={handleLanguageOnMouseEnter}
       onMouseLeave={handleLanguageOnMouseLeave}
     >
-      <Popover.Header as="h3">Location and language Popover</Popover.Header>
       <Popover.Body>
-        And here's some <strong>amazing</strong> content. It's very engaging.
-        right?
+        <div className={classes.languagePopoverBody}>
+          <span className={classes.navItem}>
+            <span className={classes.languageText}>
+              Change language
+              <Link to="/help" className={classes.learnMore}>
+                Learn more
+              </Link>
+            </span>
+          </span>
+          <span className={classes.navText}>
+            <i className={classes.leftIcon}></i>
+            <span>Deutsch - DE</span>
+          </span>
+          <div className={classes.navDivider}></div>
+          <span>
+            <span className={classes.navText}>
+              <i className={classes.leftIcon}></i>
+              <span>English - EN</span>
+            </span>
+            <span className={classes.navText}>
+              <i className={classes.leftIcon}></i>
+              <span>čeština - CS</span>
+            </span>
+            <span className={classes.navText}>
+              <i className={classes.leftIcon}></i>
+              <span>Nederlands - NL</span>
+            </span>
+            <span className={classes.navText}>
+              <i className={classes.leftIcon}></i>
+              <span>polski - PL</span>
+            </span>
+            <span className={classes.navText}>
+              <i className={classes.leftIcon}></i>
+              <span>Türkçe - TR</span>
+            </span>
+          </span>
+        </div>
       </Popover.Body>
     </Popover>
   );

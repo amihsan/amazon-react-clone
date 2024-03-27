@@ -1,10 +1,10 @@
 import React, { useState } from "react";
 import Offcanvas from "react-bootstrap/Offcanvas";
+import { Link } from "react-router-dom";
 import classes from "./HeaderSideBar.module.css";
 
 function HeaderSideBar() {
   const [show, setShow] = useState(false);
-
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
   return (
@@ -21,7 +21,14 @@ function HeaderSideBar() {
         >
           <Offcanvas.Title className={classes.sideBarTitle}>
             <div className={classes.avatar}></div>
-            <strong>Hello, Sign in</strong>
+
+            <strong>
+              Hello,
+              <Link to="/login" className={classes.link}>
+                {" "}
+                Sign in
+              </Link>
+            </strong>
           </Offcanvas.Title>
         </Offcanvas.Header>
         <Offcanvas.Body>

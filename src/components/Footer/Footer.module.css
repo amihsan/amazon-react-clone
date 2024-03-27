@@ -4,7 +4,7 @@
   font-size: 13px;
   margin-top: 20px;
   justify-content: space-evenly;
-  width: 100vw;
+  /* width: 100vw; */
   font-family: "Amazon Ember", Arial, sans-serif;
 }
 
@@ -72,6 +72,7 @@
   justify-content: space-evenly;
   align-items: center;
   justify-content: center;
+  height: 11vh;
 }
 
 .footerBottomMessage {
@@ -148,10 +149,77 @@
   justify-content: center;
   background-color: #131a22;
   color: white;
-  width: 100vw;
-  height: 7vw;
+  /* width: 100vw; */
+  height: 12vw;
   font-family: "Amazon Ember", Arial, sans-serif;
 }
 .unfoldIconResize {
   font-size: 16px;
+}
+
+.navItem {
+  position: relative;
+  display: block;
+  clear: both;
+  font-family: inherit;
+  line-height: 16px;
+  padding: 0 0 7px;
+  margin: 0;
+  text-decoration: none;
+  cursor: default;
+}
+.learnMore {
+  font-size: 11px;
+  margin-left: 5px;
+  text-decoration: none;
+  color: #007185;
+}
+.learnMore:hover {
+  text-decoration: underline;
+  color: #e47911;
+}
+.navDivider {
+  position: relative;
+  display: block;
+  line-height: 1px;
+  height: 1px;
+  overflow: hidden;
+  background: #eee;
+
+  margin: 0 0 9px;
+}
+
+.languagePopoverBasic {
+  width: 100%;
+  max-width: 240px;
+  margin-top: -1px;
+  font-family: "Amazon Ember", Arial, sans-serif;
+}
+.leftIcon {
+  margin: 0 0.5em 0 0;
+  position: relative;
+  top: 3px;
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  background: url(https://m.media-amazon.com/images/S/sash/fe2UeLQmJ11kKHN.png);
+  background-position: -75px -2px;
+}
+.navText {
+  display: block;
+  font-size: 13px;
+  color: #444;
+  font-weight: 400;
+  white-space: normal;
+  word-wrap: break-word;
+  padding: 0 0 7px;
+}
+
+.navText:hover {
+  text-decoration: underline;
+  cursor: pointer;
+  color: #e47911;
+}
+.navText:hover .leftIcon {
+  background-position: -123px -2px;
 }
